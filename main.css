@@ -1,0 +1,17 @@
+@import url(./css/layout/normalize.css);
+@import url(./css/layout/null.css);
+@import url(./css/layout/global.css);
+
+@import url(./css/blocks/form.css);
+@import url(./css/blocks/header.css);
+@import url(./css/blocks/menu.css);
+@import url(./css/blocks/logo.css);
+@import url(./css/blocks/contacts.css);
+@import url(./css/blocks/hero.css);
+@import url(./css/blocks/special-offers.css);
+@import url(./css/blocks/mailing.css);
+@import url(./css/blocks/invitation.css);
+@import url(./css/blocks/lottery.css);
+@import url(./css/blocks/footer.css);
+@import url(./css/blocks/copyright.css);
+@import url(./css/blocks/social.css);

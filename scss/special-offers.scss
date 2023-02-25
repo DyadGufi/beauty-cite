@@ -1,0 +1,46 @@
+.special-offers__list{
+    display: flex;
+    .list__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        margin: 0 30px 0 0;
+    }
+    .item__img{
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .item__description{
+        margin: 20px 30px;
+    }
+    .item__price{
+        font-size: 21px;
+        font-weight: 500;
+        margin: 20px 0;
+    }
+    .button{
+        padding: 9px 40px;
+        margin-bottom: 25px;
+    }
+}
+
+.special-offers__wrapper{
+    margin-bottom: 100px;
+}
+
+.special-offers{
+    background: #EFEFEF;
+    padding-bottom: 132px;
+
+    &__title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 80px;
+        margin-bottom: 16px;
+    }
+}

@@ -1,0 +1,19 @@
+.mailing{
+    color: #fff;
+
+    &__lottery, .invitation{
+        background: #66C05D;
+        width: 100%;
+        padding: 35px 45px 35px 40px;
+    }
+    &__wrapper{
+        display: flex;
+        
+    }
+    &__lottery{
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+}

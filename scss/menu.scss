@@ -1,0 +1,22 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 100%;
+
+    &__list{
+        li{
+            display: inline;
+            
+        }
+        margin-top: 17px;
+    }
+}
+
+
+.list__item{
+    margin: 17px 30px 17px 0px;
+    &:last-child{
+        margin-right: 0;
+    }
+}

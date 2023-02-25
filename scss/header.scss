@@ -1,0 +1,39 @@
+.header__top{
+    .link{
+        color: #333333;
+    }
+    
+    background: #EFEFEF;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.header__inner{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #efefef;
+    .header__logo, .contacts{
+        display: flex;
+        align-items: center;
+    }
+    .header__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.header__bottom{
+    .list__item{
+        margin-right: 40px;
+        a{
+            font-size: 16px;
+        }
+    }
+    .menu__list{
+        margin-top: 30px;
+        
+    }
+    .menu{
+        margin-bottom: 30px
+    }
+}

@@ -1,0 +1,19 @@
+.hero {
+  background: url(/img/background/hero__bg.jpg) center no-repeat;
+  color: #fff;
+  height: 604px;
+}
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.hero__subtitle {
+  margin: 50px 0;
+  width: 30%;
+  line-height: 1.42em;
+}
+.hero__button .button {
+  padding: 12px 44px;
+}

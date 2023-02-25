@@ -1,0 +1,14 @@
+.invitation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.invitation__title h3 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.invitation__description {
+  width: 35%;
+}

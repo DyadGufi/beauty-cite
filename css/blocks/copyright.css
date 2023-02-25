@@ -1,0 +1,8 @@
+.copyright__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 5px;
+  font-size: 12px;
+  color: #828282;
+}

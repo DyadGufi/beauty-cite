@@ -1,0 +1,16 @@
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 37px 5px;
+}
+.footer .social__item {
+  margin-right: 20px;
+}
+.footer .social__item:last-child {
+  margin-right: 0;
+}
+
+.footer__copyright {
+  background: #EFEFEF;
+}

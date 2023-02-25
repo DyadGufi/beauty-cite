@@ -1,0 +1,35 @@
+.header__top {
+  background: #EFEFEF;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.header__top .link {
+  color: #333333;
+}
+
+.header__inner {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #efefef;
+}
+.header__inner .header__logo, .header__inner .contacts {
+  display: flex;
+  align-items: center;
+}
+.header__inner .header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__bottom .list__item {
+  margin-right: 40px;
+}
+.header__bottom .list__item a {
+  font-size: 16px;
+}
+.header__bottom .menu__list {
+  margin-top: 30px;
+}
+.header__bottom .menu {
+  margin-bottom: 30px;
+}
