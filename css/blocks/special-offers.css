@@ -1,5 +1,6 @@
 .special-offers__list {
   display: flex;
+  flex-wrap: wrap;
 }
 .special-offers__list .list__item {
   display: flex;

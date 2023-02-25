@@ -8,9 +8,11 @@
 }
 .mailing__wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 .mailing__lottery {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-right: 30px;
 }
