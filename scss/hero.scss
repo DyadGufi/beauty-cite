@@ -17,3 +17,72 @@
         padding: 12px 44px;
     }
 }   
+
+@media(max-width: 1024px){
+    .hero{
+        &__subtitle{
+            margin: 30px 0;
+        }
+    }
+}
+
+@media(max-width: 829px){
+    .hero{
+        &__wrapper{
+            padding-left: 30px;
+        }
+        &__subtitle{
+            width: 40%;
+        }
+    }
+}
+
+@media(max-width: 700px){
+    .hero{
+        &__subtitle{
+            width: 50%;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    .hero{
+        &__title h1{
+            font-size: 40px;
+        }
+    }
+}
+
+@media(max-width: 515px) {
+    .hero {
+        height: 310px;
+        background-size: 200% 100%;
+    }
+}
+
+@media(max-width: 450px) {
+    .hero {
+        &__title h1{
+            font-size: 30px;
+        }
+    }
+}
+
+@media(max-width: 350px) {
+    .hero {
+        background-size: 250% 100%;
+        &__title h1{
+            font-size: 20px;
+        }
+        &__subtitle{
+            font-size: 11px;
+            width: 60%;
+        }
+        &__wrapper{
+            padding-left: 0
+        }
+        .button{
+            padding: 12px 25px;
+        }
+    }
+}

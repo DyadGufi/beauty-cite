@@ -4,3 +4,12 @@
         border-radius: 30px;
     }
 }
+
+@media(max-width: 490px) {
+    .form__row {
+        input{
+            padding: 9px 15px;
+            border-radius: 30px;
+        }
+    }
+}

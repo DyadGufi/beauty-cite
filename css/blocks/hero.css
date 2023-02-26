@@ -17,3 +17,56 @@
 .hero__button .button {
   padding: 12px 44px;
 }
+
+@media (max-width: 1024px) {
+  .hero__subtitle {
+    margin: 30px 0;
+  }
+}
+@media (max-width: 829px) {
+  .hero__wrapper {
+    padding-left: 30px;
+  }
+  .hero__subtitle {
+    width: 40%;
+  }
+}
+@media (max-width: 700px) {
+  .hero__subtitle {
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .hero__title h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 515px) {
+  .hero {
+    height: 310px;
+    background-size: 200% 100%;
+  }
+}
+@media (max-width: 450px) {
+  .hero__title h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 350px) {
+  .hero {
+    background-size: 250% 100%;
+  }
+  .hero__title h1 {
+    font-size: 20px;
+  }
+  .hero__subtitle {
+    font-size: 11px;
+    width: 60%;
+  }
+  .hero__wrapper {
+    padding-left: 0;
+  }
+  .hero .button {
+    padding: 12px 25px;
+  }
+}

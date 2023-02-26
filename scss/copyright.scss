@@ -8,3 +8,18 @@
     font-size: 12px;
     color: #828282;
 }
+
+@media(max-width: 500px){
+    .copyright__description{
+        font-size: 8px;
+    }
+    .copyright__description+p{
+        margin-right: 10px;
+    }
+    .copyright__text{
+        width: 50%;
+    }
+    .copyright__text:last-child{
+        width: 30%;
+    }
+}

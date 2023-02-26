@@ -1,18 +1,49 @@
 .mailing {
   color: #fff;
 }
-.mailing__lottery, .mailing .invitation {
+.mailing__lottery,
+.mailing .invitation {
   background: #66C05D;
   width: 100%;
   padding: 35px 45px 35px 40px;
 }
 .mailing__wrapper {
   display: flex;
-  flex-wrap: wrap;
 }
 .mailing__lottery {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   margin-right: 30px;
+}
+
+@media (max-width: 1024px) {
+  .mailing__lottery,
+  .mailing .invitation {
+    width: 50%;
+  }
+}
+@media (max-width: 829px) {
+  .mailing__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mailing__lottery {
+    margin-bottom: 20px;
+  }
+  .mailing__lottery,
+  .mailing .invitation {
+    margin-right: 0;
+    width: 60%;
+  }
+
+  .invitation__title, .invitation__description {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .mailing__lottery,
+  .mailing .invitation {
+    margin-right: 0;
+    width: 100%;
+  }
 }

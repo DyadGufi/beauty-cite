@@ -16,3 +16,19 @@
 .invitation__description{
     width: 35%;
 }
+
+@media(max-width: 1024px){
+    .invitation{
+        &__description{
+            width: 50%;
+        }
+    }
+}
+
+@media(max-width: 490px) {
+    .invitation{
+        &__description{
+            width: 100%;
+        }
+    }
+}

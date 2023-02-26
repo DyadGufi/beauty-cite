@@ -1,21 +1,72 @@
-.mailing{
+.mailing {
     color: #fff;
 
-    &__lottery, .invitation{
+    &__lottery,
+    .invitation {
         background: #66C05D;
         width: 100%;
         padding: 35px 45px 35px 40px;
     }
-    &__wrapper{
+
+    &__wrapper {
         display: flex;
-        flex-wrap: wrap;
-        
+
     }
-    &__lottery{
+
+    &__lottery {
         display: flex;
-        flex-wrap: wrap;
         align-items: center;
         margin-right: 30px;
+    }
+
+}
+
+@media(max-width: 1024px) {
+    .mailing {
+
+        &__lottery,
+        .invitation {
+            width: 50%;
+        }
+    }
+}
+
+@media(max-width: 829px) {
+    .mailing {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__lottery {
+            margin-bottom: 20px;
+        }
+
+        &__lottery,
+        .invitation {
+            margin-right: 0;
+            width: 60%;
+        }
+    }
+
+    .invitation {
+
+        &__title,
+        &__description {
+            margin-bottom: 10px;
+        }
+    }
+
+}
+
+@media(max-width: 450px) {
+    .mailing {
+
+        &__lottery,
+        .invitation {
+            margin-right: 0;
+            width: 100%;
+        }
     }
 
 }

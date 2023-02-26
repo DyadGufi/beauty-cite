@@ -5,3 +5,12 @@
 .social__list{
     display: flex;
 }
+
+@media(max-width: 515px){
+    .social{
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    
+}

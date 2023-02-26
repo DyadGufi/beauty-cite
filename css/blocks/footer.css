@@ -15,3 +15,13 @@
 .footer__copyright {
   background: #EFEFEF;
 }
+
+.lottery__image {
+  display: none;
+}
+
+@media (max-width: 879px) {
+  .footer__wrapper {
+    justify-content: space-around;
+  }
+}
