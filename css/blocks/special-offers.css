@@ -105,14 +105,33 @@
   }
 }
 @media (max-width: 340px) {
-  .special-offers {
-    padding-bottom: 80px;
-  }
   .special-offers__wrapper .button__green {
-    font-size: 25px;
-    padding: 10px 30px;
+    font-size: 12px;
+    padding: 10px 20px;
   }
   .special-offers .list__item {
-    width: 90%;
+    width: 45%;
+    height: 210px;
+    margin: 10px 7px;
+  }
+  .special-offers .item__description {
+    font-size: 10px;
+    margin: 10px 5px;
+  }
+  .special-offers .item__price {
+    margin: 5px 0;
+  }
+  .special-offers .item__price h3 {
+    font-size: 15px;
+  }
+  .special-offers .item__img {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  .special-offers .item__img img {
+    width: 100%;
+    height: 100%;
   }
 }
