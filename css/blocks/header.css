@@ -57,7 +57,7 @@
 }
 @media (max-width: 500px) {
   .header__top a {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 @media (max-width: 450px) {
